@@ -1,0 +1,64 @@
+.home-main {
+    padding-top: 194.47px;
+    padding-bottom: 193.52px;
+    padding-left: 197px;
+    background: url("/public/images/home-main-bg.png") no-repeat;
+}
+
+.home-main-about {
+    width: 551.15px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 58px;
+    padding-right: 58.15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.home-main-title {
+    font-family: "Cabin", sans-serif;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--primary-03);
+}
+
+.home-main-desc {
+    margin-top: 19px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #595566;
+}
+
+.home-main-actions {
+    margin-top: 18px;
+    gap: 13px;
+} 
+
+.home-main-services {
+    display: block;
+    width: 167px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: var(--primary-03);
+    border: 1px solid var(--primary-03);
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--secondary-02);
+}
+
+.home-main-book {
+    display: block;
+    width: 201.54px;
+    height: 59.54px;
+    padding-left: 52.54px;
+    background: var(--secondary-02) url('/public/images/book.svg') no-repeat;
+    border: 1px solid var(--secondary-02);
+    background-position: 10px center;
+    border-radius: 42px;
+    cursor: pointer; 
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-05);
+}

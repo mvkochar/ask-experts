@@ -1,0 +1,66 @@
+.header-info {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 361px;
+    padding-right: 361px;
+    background-color: var(--primary-03);
+    font-size: 14px;
+    color: var(--secondary-02);
+}
+
+.header-schedule {
+    padding-left: 28px;
+    background: url("/public/images/schedule.svg") no-repeat; 
+}
+
+.header-location {
+    padding-left: 28px;
+    background: url("/public/images/location.svg") no-repeat;
+}
+
+.header-social {
+    margin-top: 3px;
+    gap: 25px
+}
+
+.header-bar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 360px;
+    padding-right: 360px;
+    background-color: rgba(27, 27, 27, 0.91);
+}
+
+.header-nav {
+    gap: 50px;
+    list-style-type: circle;
+    color: var(--secondary-02);
+}
+
+.header-nav-item a {
+    font-size: 18px;
+    color: var(--secondary-02);
+}
+
+.header-nav-item a:hover {
+    color: var(--primary-04);
+}
+
+ .header-nav-item:hover {
+    color: var(--primary-04);
+}
+
+.header-call {
+    display: block;
+    width: 244.54px;
+    height: 59.54px;
+    padding-left: 32.54px;
+    background: var(--secondary-02) url("/public/images/phone.svg") no-repeat;
+    background-position: 10px 8px;
+    border: 1px solid var(--secondary-02); 
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-05);
+}
