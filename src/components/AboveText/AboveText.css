@@ -1,0 +1,12 @@
+.above-text {
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: var(--primary-01);
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 147.5%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--primary-03);
+}

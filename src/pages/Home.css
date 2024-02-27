@@ -26,13 +26,13 @@
     margin-top: 19px;
     font-size: 16px;
     line-height: 1.2;
-    color: #595566;
+    color: var(--primary-06);
 }
 
 .home-main-actions {
     margin-top: 18px;
     gap: 13px;
-} 
+}
 
 .home-main-services {
     display: block;
@@ -57,8 +57,170 @@
     border: 1px solid var(--secondary-02);
     background-position: 10px center;
     border-radius: 42px;
-    cursor: pointer; 
+    cursor: pointer;
     font-weight: 600;
     font-size: 18px;
     color: var(--primary-05);
+}
+
+.home-clients {
+    margin-top: 15px;
+    margin-left: 78px;
+    margin-top: 37px;
+}
+
+.home-about {
+    width: fit-content;
+    margin: 148px auto;
+    margin-bottom: 0;
+    gap: 65px;
+}
+
+.home-about-title {
+    margin-top: 22px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: var(--primary-03);
+}
+
+.home-about-subtitle {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--primary-03);
+}
+
+.home-about-desc {
+    margin-top: 11px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.home-about-counter {
+    margin-top: 55px;
+    padding-top: 17.02px;
+    padding-bottom: 19.11px;
+    border-top: 1px solid var(--secondary-03);
+    border-bottom: 1px solid var(--secondary-03);
+    gap: 19.64px;
+}
+
+.home-about-counter .counter-item {
+    width: 170.21px;
+    padding-top: 16px;
+    padding-bottom: 16.01px;
+    background-color: var(--secondary-04);
+    border-radius: 15px;
+}
+
+.home-about-counter .counter-item-num {
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 32px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--primary-03);
+}
+
+.home-about-counter .counter-item:nth-child(1) .counter-item-num {
+    background: url("/public/images/star.svg") no-repeat;
+    background-position: 0;
+}
+
+.home-about-counter .counter-item:nth-child(2) .counter-item-num {
+    background: url("/public/images/happy.svg") no-repeat;
+    background-position: 0;
+}
+
+.home-about-counter .counter-item-desc {
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--primary-03);
+}
+
+.home-about-counter .counter-divider {
+    width: 90.28px;
+    height: 0px;
+    border: 1px solid var(--secondary-03);
+    transform: rotate(90deg);
+}
+
+.home-about-experience {
+    padding-left: 80.64px;
+    padding-bottom: 46.33px;
+    background: url("/public/images/happy-about-bg.png") no-repeat;
+    background-position-y: 136.37px;
+    position: relative;
+}
+
+.home-about-market {
+    width: 241.17px;
+    padding-top: 22.22px;
+    padding-bottom: 20.33px;
+    padding-left: 22.53px;
+    padding-right: 28.14px;
+    gap: 10.29px;
+    background-color: var(--secondary-02);
+    border-radius: 24px;
+    -webkit-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    left: 41.58px;
+    bottom: 46.33px;
+}
+
+.home-about-market .about-market-num {
+    width: 163.21px;
+    padding-top: 30.5px;
+    padding-bottom: 33.71px;
+    background: url("/public/images/ellipse.svg") no-repeat;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: var(--primary-03);
+}
+
+.home-about-market .about-market-desc {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-03);
+}
+
+.home-services {
+    margin-top: 174px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-color: var(--secondary-01);
+}
+
+.home-services .above-text {
+    margin: 0 auto;
+}
+
+.home-services-title {
+    margin-top: 8px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-03);
+}
+
+.home-services-box {
+    width: 1201px;
+    margin: 38px auto;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    gap: 20px;
 }
