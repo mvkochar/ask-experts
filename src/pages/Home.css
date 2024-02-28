@@ -224,3 +224,212 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.home-process {
+    width: fit-content;
+    margin: 150px auto;
+    gap: 117px;
+}
+
+.home-process-title {
+    margin-top: 16px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 45px;
+    color: var(--primary-03);
+}
+
+.home-process-desc {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.home-process-box {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.home-process-item {
+    padding-top: 28px;
+    border-top: 1px solid #C1C1C1;
+    gap: 16px;
+}
+
+.home-process-item .process-item-num {
+    width: 52.33px;
+    height: 52.33px;
+    border-radius: 100px;
+    padding-top: 11.43px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+.home-process-item:nth-child(1) .process-item-num {
+    background-color: var(--primary-01);
+    color: var(--primary-03);
+}
+
+.home-process-item:nth-child(2) .process-item-num {
+    background-color: var(--primary-02);
+    color: var(--secondary-02);
+}
+
+.home-process-item:nth-child(3) .process-item-num {
+    background-color: var(--primary-03);
+    color: var(--secondary-02);
+}
+
+.home-process-item .process-item-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-03);
+}
+
+.home-process-item .process-item-desc {
+    width: 331.61px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.home-process-clients {
+    max-width: 573.72px;
+    margin-top: 17px;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    row-gap: 16px;
+}
+
+.home-process-clients .process-clients-item {
+    flex-direction: column;
+    width: 279.86px;
+    height: 221.78px;
+    padding: 33px 23px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.home-process-clients .process-clients-item .clients-item-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-03);
+}
+
+.home-process-clients .process-clients-item .clients-item-desc {
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.home-gallery {
+    padding-top: 202.57px;
+    padding-left: 360.32px;
+    padding-right: 243.85px;
+    background: url("/public/images/home-gallery-bg.png") no-repeat;
+}
+
+.home-gallery-caption {
+    margin-top: 8px;
+    align-items: flex-end;
+}
+
+.home-gallery-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: var(--secondary-02);
+}
+
+.home-gallery-more {
+    display: block;
+    width: 168px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 61px;
+    background-color: var(--primary-01);
+    border: 1px solid var(--primary-01);
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-03);
+}
+
+.home-gallery-box {
+    max-width: 1202px;
+    margin-top: 45px;
+    padding: 25px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.home-gallery-category {
+    width: 366.08px;
+    height: 344.05px;
+    padding-top: 23px;
+    padding-bottom: 23.56px;
+    padding-left: 25.24px;
+    padding-right: 30.48px;
+    background: url("/public/images/gallery/category.png") no-repeat;
+    flex-direction: column;
+}
+
+.home-gallery-category .category-plus {
+    width: 54.12px;
+    height: 54.12px;
+    background: linear-gradient(153.8deg, #FFE9B1 -8.69%, #DDA003 120.59%);
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: "Cabin", sans-serif;
+    font-size: 41px;
+    text-align: center;
+    color: var(--primary-03);
+    align-self: flex-end;
+}
+
+.home-gallery-category .category-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--secondary-02);
+}
+
+.home-gallery-category .category-subtitle {
+    margin-top: 4px;
+    font-size: 16px;
+    color: var(--primary-01);
+}
+
+.home-counter {
+    width: fit-content;
+    margin: 54px auto;
+    margin-bottom: 0;
+    gap: 135px;
+}
+
+.home-counter-num {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.home-counter-desc {
+    margin-top: 12px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-03);
+}

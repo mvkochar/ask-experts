@@ -2,12 +2,14 @@ import React from 'react'
 import './AboveText.css'
 
 type AboveTextProps = {
-    content: string
+  content: string
+  bgcolor?: string
+  txtColor?: string
 }
 
-const AboveText = ({content}:AboveTextProps) => {
+const AboveText = ({ content, bgcolor = "var(--primary-01)", txtColor = "var(--primary-03)" }: AboveTextProps) => {
   return (
-    <div className='above-text'>{content}</div>
+    <div className='above-text' style={{ backgroundColor: bgcolor, color: txtColor }}>{content}</div>
   )
 }
 
