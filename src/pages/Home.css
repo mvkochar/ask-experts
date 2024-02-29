@@ -433,3 +433,159 @@
     font-size: 18px;
     color: var(--primary-03);
 }
+
+.home-testimonial {
+    margin-top: 146.56px;
+}
+
+.home-testimonial .above-text {
+    margin: 0 auto;
+}
+
+.home-testimonial-quote {
+    max-width: 628.39px;
+    margin: 23px auto;
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: #CECECE;
+}
+
+.home-testimonial-quote span {
+    color: var(--primary-03);
+}
+
+.home-testimonial-box  {
+    width: fit-content;
+    margin: 33.35px auto;
+    margin-bottom: 0;
+    gap: 97px;
+}
+
+.home-testimonial-btn {
+    display: block;
+    width: 125px;
+    height: 60px;
+    background-color: #F3F3F3;
+    background-repeat: no-repeat;
+    border: 1px solid #F3F3F3;
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-05);
+}
+
+.home-testimonial-btn:nth-child(1) {
+    padding-left: 32px;
+    background-image:  url("/public/images/prev.svg");
+    background-position: 8.73px center;
+}
+
+.home-testimonial-btn:nth-child(3) {
+    padding-left: 22.87px;
+    background-image: url("/public/images/next.svg");
+    background-position: 72.93px center;
+    text-align: left;
+}
+
+.home-testimonial-author {
+    margin-top: 27px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: var(--primary-03);   
+}
+
+.home-testimonial-pos {
+    margin-top: 7px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: var(--primary-02);
+}
+
+.home-book {
+    max-width: 1200.02px;
+    margin: 93.35px auto;
+    margin-bottom: 0;
+    padding-left: 90px;
+    padding-right: 90.54px;
+    background-color: var(--primary-03);
+    gap: 73px;
+}
+
+.home-book-title {
+    width: 427.41px;
+    margin-top: 8px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: var(--secondary-02);
+}
+
+.home-book-title span {
+    color: #727272;
+}
+
+.home-book-desc {
+    width: 423.04px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--secondary-02);
+}
+
+.home-book-call {
+    display: block;
+    width: 193.61px;
+    height: 61px;
+    margin-top: 21px;
+    padding-left: 48.61px;
+    background: var(--primary-01) url("/public/images/phone.svg") no-repeat;
+    background-position: 10px center;
+    border: 1px solid var(--primary-01);
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    color: var(--primary-03);
+}
+
+.home-blog {
+    margin-top: 169.75px;
+    padding: 178px 359px;
+    background-color: var(--secondary-01);
+}
+
+.home-blog-title {
+    margin-top: 6px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 45px;
+    color: var(--primary-03);
+}
+
+.home-blog-more {
+    display: block;
+    width: 167px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: var(--primary-01);
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: var(--primary-03);
+}
+
+.home-blog-content {
+    margin-top: 46px;
+}

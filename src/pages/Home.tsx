@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import AboveText from '../components/AboveText/AboveText'
 import ServiceItem from '../components/ServiceItem/ServiceItem'
+import BlogItem from '../components/BlogItem/BlogItem'
 
 const Home = () => {
   return (
@@ -183,18 +184,18 @@ const Home = () => {
           <button className='home-gallery-more'>More Gallery</button>
         </div>
         <div className="home-gallery-box d-f">
-           <div className="home-gallery-category d-f jc-sb">
-               <div className="category-plus">+</div>
-               <div>
-                <div className="category-title">Taxes & Efficiency</div>
-                <div className="category-subtitle">Business</div>
-               </div>
-            </div> 
-            <div><img src="images/gallery/1.png" alt="gallery1" /></div>
-            <div><img src="images/gallery/2.png" alt="gallery2" /></div>
-            <div><img src="images/gallery/3.png" alt="gallery3" /></div>
-            <div><img src="images/gallery/4.png" alt="gallery4" /></div>
-            <div><img src="images/gallery/5.png" alt="gallery5" /></div>
+          <div className="home-gallery-category d-f jc-sb">
+            <div className="category-plus">+</div>
+            <div>
+              <div className="category-title">Taxes & Efficiency</div>
+              <div className="category-subtitle">Business</div>
+            </div>
+          </div>
+          <div><img src="images/gallery/1.png" alt="gallery1" /></div>
+          <div><img src="images/gallery/2.png" alt="gallery2" /></div>
+          <div><img src="images/gallery/3.png" alt="gallery3" /></div>
+          <div><img src="images/gallery/4.png" alt="gallery4" /></div>
+          <div><img src="images/gallery/5.png" alt="gallery5" /></div>
         </div>
       </div>
       <div className="home-counter d-f">
@@ -213,6 +214,73 @@ const Home = () => {
         <div>
           <div className="home-counter-num">564+</div>
           <p className="home-counter-desc">Creative Idea</p>
+        </div>
+      </div>
+      <div className="home-testimonial">
+        <AboveText
+          content='Client Feedback'
+          bgcolor='var(--primary-02)'
+          txtColor='var(--secondary-02)'
+        />
+        <h2 className="home-testimonial-quote">
+          "Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit,
+            sed do eiusmod</span>  tempor incididunt ut labore et dolore"
+        </h2>
+        <div className="home-testimonial-box d-f align-center">
+          <button className='home-testimonial-btn'>Prev</button>
+          <div>
+            <div><img src="images/user1.png" alt="User1" /></div>
+            <div className="home-testimonial-author">Kathleen Smith</div>
+            <div className="home-testimonial-pos">Web Designe</div>
+          </div>
+          <button className='home-testimonial-btn'>Next</button>
+        </div>
+      </div>
+      <div className="home-book d-f align-center">
+        <div>
+          <AboveText
+            content='Book now'
+            bgcolor='var(--primary-02)'
+            txtColor='var(--secondary-02)'
+          />
+          <h2 className="home-book-title">Better Consult, <span>Better</span> Results</h2>
+          <p className="home-book-desc">
+            Our software development agency has a growth up to 30% per each year.
+            If you are result-oriented, not afraid to take initiative - drop us a note and join our team!
+          </p>
+          <button className="home-book-call">+800 1234 654</button>
+        </div>
+        <div><img src="images/home-book.png" alt="home-book" /></div>
+      </div>
+      <div className="home-blog">
+        <div className="d-f jc-sb align-center">
+          <div>
+            <AboveText
+              content='Blog'
+              bgcolor='var(--primary-02)'
+              txtColor='var(--secondary-02)'
+            />
+            <h2 className="home-blog-title">Take a look at our latest <br /> articles & resources</h2>
+          </div>
+          <a href="" className='home-blog-more'>More News</a>
+        </div>
+        <div className="home-blog-content d-f jc-sb">
+          <BlogItem
+            image='images/blog1.png'
+            title='Consulting Fees Study 2019 (And How To Raise Your Rates)'
+            desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.'
+            authorPhoto='images/blog1-author.png'
+            authorName='John Carter'
+            date='September 1, 2022'
+          />
+          <BlogItem
+            image='images/blog2.png'
+            title='What is growth hacking and how to apply it to your startup'
+            desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.'
+            authorPhoto='images/blog2-author.png'
+            authorName='Nayra Melson'
+            date='September 1, 2022'
+          />
         </div>
       </div>
     </main>

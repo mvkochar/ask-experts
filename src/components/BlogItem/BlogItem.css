@@ -1,0 +1,67 @@
+.blog-item {
+    width: 582px;
+}
+
+.blog-item-title {
+    margin-top: 28px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #181818;
+}
+
+.blog-item-desc {
+    width: 546.55px;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #595566;
+}
+
+.blog-item-info {
+    margin-top: 10px;
+    padding-top: 14.7px;
+    padding-bottom: 14.64px;
+    border-top: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    ;
+}
+
+.blog-item-author,
+.blog-item-date {
+    font-size: 16px;
+    color: #595566;
+}
+
+.blog-item-author {
+    flex-shrink: 0;
+    margin-left: 8.03px;
+}
+
+.blog-item-divider {
+    width: 14px;
+    height: 0px;
+    margin-left: 22px;
+    border: 1px solid #595566;
+    transform: rotate(90deg);
+}
+
+.blog-item-date {
+    flex-shrink: 0;
+    margin-left: 21.97px;
+}
+
+.blog-item-more {
+    display: block;
+    width: 167px;
+    margin-left: 85px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #C1C1C1;
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #181818;
+}
