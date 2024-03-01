@@ -1,0 +1,87 @@
+.footer {
+    padding-top: 126px;
+    padding-bottom: 26.05px;
+    padding-left: 360px;
+    padding-right: 360.03px;
+    background-color: var(--primary-03);
+    color: var(--secondary-02);
+}
+
+.footer-info {
+    height: 237px;
+    padding-right: 117px;
+    border-right: 1px solid #707070;
+}
+
+.footer-social {
+    margin-top: 31px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer-bar-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer-bar-title::after {
+    content: '';
+    display: block;
+    width: 31.95px;
+    height: 3.1px;
+    margin-top: 11px;
+    background-color: var(--primary-01);
+}
+
+.footer-bar-list {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.footer-bar-list li {
+    line-height: 1.5;
+}
+
+.footer-bar-list li:hover {
+    color: var(--primary-04);
+}
+
+.footer-bar-list li a {
+    font-size: 16px;
+    color: var(--secondary-02);
+}
+
+.footer-bar-list li a:hover {
+    color: var(--primary-04);
+}
+
+.footer-address {
+    width: 232.08px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.footer-book {
+    width: 214px;
+    margin-top: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--secondary-02);
+    border: 1px solid var(--secondary-02);
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-03);
+}
+
+.footer-copyright {
+    margin-top: 56.2px;
+    padding-top: 19.83px;
+    border-top: 1px solid #707070;
+    font-size: 16px;
+    text-align: center;
+}
