@@ -1,0 +1,25 @@
+.about-main {
+    padding-top: 178px;
+    padding-bottom: 175px;
+    padding-left: 361px;
+    background: url("/public/images/about-main-bg.png") no-repeat;
+}
+
+.about-main-info {
+    width: 788px;
+    padding-top: 48px;
+    padding-bottom: 58px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: var(--secondary-02);
+    border-radius: 29px;
+}
+
+.about-main-title {
+    margin-top: 21px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--primary-03);
+}
