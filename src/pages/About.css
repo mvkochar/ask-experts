@@ -1,6 +1,6 @@
 .about-main {
     padding-top: 178px;
-    padding-bottom: 175px;
+    padding-bottom: 172px;
     padding-left: 361px;
     background: url("/public/images/about-main-bg.png") no-repeat;
 }
@@ -22,4 +22,220 @@
     font-size: 50px;
     line-height: 1.2;
     color: var(--primary-03);
+}
+
+.about-vision {
+    gap: 125px;
+    width: fit-content;
+    margin: 95.27px auto;
+    margin-bottom: 0;
+}
+
+.about-vision-title {
+    margin-top: 19px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-03);
+}
+
+.about-vision-desc {
+    width: 590px;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.about-vision-list {
+    width: 556px;
+    margin-top: 19px;
+    list-style-type: none;
+}
+
+.about-vision-list li {
+    display: flex;
+    gap: 18.31px;
+    margin-bottom: 19px;
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--primary-06);
+}
+
+.about-vision-list li::before {
+    content: '';
+    display: block;
+    width: 30.69px;
+    height: 30.69px;
+    background: url("/public/images/list-item.svg") no-repeat;
+}
+
+.about-vision-list li:last-child {
+    margin-bottom: 0;
+}
+
+.about-counter {
+    width: fit-content;
+    margin: 50px auto;
+    margin-bottom: 0;
+    gap: 135px;
+}
+
+.about-counter-num {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.about-counter-desc {
+    margin-top: 12px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primary-03);
+}
+
+.about-features {
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 362.5px;
+    padding-right: 362.5px;
+    background-color: var(--secondary-01);
+}
+
+.about-features-title {
+    margin-top: 8px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.about-features-desc {
+    max-width: 588px;
+    margin-top: 11px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.about-features-touch {
+    display: block;
+    align-self: flex-end;
+    width: 167px;
+    height: 59px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--primary-03);
+    border: 1px solid var(--primary-03);
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--secondary-02);
+}
+
+.about-features-box {
+    margin-top: 34px;
+}
+
+.about-features-item {
+    flex-direction: column;
+    width: 272px;
+    padding: 26px 23px;
+    background-color: var(--secondary-02);
+    border: 1px solid #EAEAEA;
+    border-radius: 20px;
+}
+
+.about-features-item:nth-child(1), .about-features-item:nth-child(3)  {
+    height: 326.78px;
+}
+
+.about-features-item:nth-child(2), .about-features-item:nth-child(4)  {
+    height: 276.68px;
+}
+
+.about-features-item .features-item-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-03);
+}
+
+.about-features-item .features-item-desc {
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.about-features-item .features-item-more {
+    display: block;
+    width: 110.07px;
+    background: url("/public/images/arrow-right.svg") no-repeat right;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-03);
+}
+
+.about-video {
+    width: fit-content;
+    margin: 150.22px auto;
+    margin-bottom: 0;
+}
+
+.about-video .above-text {
+    margin: 0 auto;
+}
+
+.about-video-title {
+    width: 478px;
+    margin: 22px auto;
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--primary-03);
+}
+
+.about-video-desc {
+    width: 732px;
+    margin: 11px auto;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--primary-06);
+}
+
+.about-video-content {
+    margin-top: 10px;
+}
+
+.about-team {
+    margin-top: 150px;
+    padding: 150px 360px;
+    background-color: var(--secondary-01);
+}
+
+.about-team-title {
+    width: 498px;
+    margin-top: 22px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: var(--primary-03);
+}
+
+.about-team-desc {
+    width: 643px;
+    margin-top: 11px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
 }
