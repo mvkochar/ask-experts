@@ -1,0 +1,46 @@
+.team-member {
+    width: 366px;
+    height: 563.1px;
+    flex-direction: column;
+}
+
+.team-member-main {
+    width: 366ppx;
+    height: 392px;
+    position: relative;
+}
+
+.team-member-pos {
+    width: fit-content;
+    padding: 4px 21px;
+    border-radius: 29px;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+
+.team-member-fname {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #181818;
+}
+
+.team-member-desc {
+    width: 328px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #595566;
+}
+
+.team-member-social {
+    gap: 29px;
+    width: fit-content;
+    margin: 0 auto;
+}
+

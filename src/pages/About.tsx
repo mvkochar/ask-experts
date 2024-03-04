@@ -1,6 +1,7 @@
 import React from 'react'
 import AboveText from '../components/AboveText/AboveText'
 import './About.css'
+import TeamMember from '../components/TeamMember/TeamMember'
 
 const About = () => {
   return (
@@ -119,9 +120,47 @@ const About = () => {
         />
         <h2 className="about-team-title">We champion the bold to achieve the extraordinary</h2>
         <p className="about-team-desc">
-          Ippsum is the result of synergy between our teams and our customers. 
+          Ippsum is the result of synergy between our teams and our customers.
           Our company culture is focused on excellent productivity, customer satisfaction, respect for team.
         </p>
+        <div className="about-team-box d-f">
+          <TeamMember
+            image='images/team1.png'
+            position='CEO at Company'
+            bgColor='var(--primary-01)'
+            txtColor='var(--primary-03)'
+            fName='Sarah Jasmine'
+            desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
+          />
+          <TeamMember
+            image='images/team2.png'
+            position='Manager'
+            fName='John Carter'
+            desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
+          />
+          <TeamMember
+            image='images/team3.png'
+            position='CEO at Company'
+            fName='Daisy Stella'
+            desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
+          />
+        </div>
+      </div>
+      <div className="home-book d-f align-center" style={{marginBottom: "105.19px"}}>
+        <div>
+          <AboveText
+            content='Book now'
+            bgcolor='var(--primary-02)'
+            txtColor='var(--secondary-02)'
+          />
+          <h2 className="home-book-title">Better Consult, <span>Better</span> Results</h2>
+          <p className="home-book-desc">
+            Our software development agency has a growth up to 30% per each year.
+            If you are result-oriented, not afraid to take initiative - drop us a note and join our team!
+          </p>
+          <button className="home-book-call">+800 1234 654</button>
+        </div>
+        <div><img src="images/home-book.png" alt="home-book" /></div>
       </div>
     </main>
   )

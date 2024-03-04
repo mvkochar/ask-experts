@@ -239,3 +239,8 @@
     line-height: 1.4;
     color: var(--primary-06);
 }
+
+.about-team-box {
+    margin-top: 44px;
+    gap: 51px;
+}
