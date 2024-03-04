@@ -1,0 +1,66 @@
+.services-main {
+    padding-top: 172.46px;
+    padding-bottom: 178px;
+    padding-left: 362px;
+    background: url("/public/images/services-main-bg.png") no-repeat;
+}
+
+.services-main-info {
+    width: 788px;
+    padding-top: 48px;
+    padding-bottom: 58px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.services-main-title {
+    margin-top: 21px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: var(--primary-03);
+}
+
+.services-process {
+    gap: 84px;
+    width: fit-content;
+    margin: 151px auto;
+    margin-bottom: 0;
+}
+
+.services-process-title {
+    margin-top: 22px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    color: var(--primary-03);
+}
+
+.services-process-content {
+    margin-top: 39px;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.services-process-item {
+    gap: 19px;
+}
+
+.services-process-item .process-item-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-03);
+}
+
+.services-process-item .process-item-desc {
+    width: 408px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
