@@ -87,7 +87,7 @@ const Services = () => {
                             <div>
                                 <div className="process-item-title">Trading</div>
                                 <p className="process-item-desc">
-                                    Uniquely matrix economically sound value through cooperative technology parallel 
+                                    Uniquely matrix economically sound value through cooperative technology parallel
                                     task fully researched data and enterprise.
                                 </p>
                             </div>
@@ -95,6 +95,152 @@ const Services = () => {
                     </div>
 
                 </div>
+            </div>
+            <div className="services-pricing">
+                <AboveText
+                    content='Pricing'
+                    bgcolor='var(--primary-02)'
+                    txtColor='var(--secondary-02)'
+                />
+                <h2 className="services-pricing-title">Our Pricing Plan</h2>
+                <div className="services-pricing-box d-f">
+                    <div className="services-pricing-item">
+                        <div className="pricing-item-main">
+                            <div className="pricing-item-title">Basic Plan</div>
+                            <p className="pricing-item-desc">
+                                The argument in favor of using to
+                                filler text goes something.
+                            </p>
+                            <div className="pricing-item-rate d-f align-center">
+                                <div className="pricing-item-price">$35</div>
+                                <AboveText
+                                    content='Monthly'
+                                    bgcolor='#3E3E3E'
+                                    txtColor='var(--secondary-02)'
+                                />
+                            </div>
+                        </div>
+                        <ul className="pricing-item-points">
+                            <li>24/7 system monitoring</li>
+                            <li>Security management</li>
+                            <li>Secure finance backup</li>
+                            <li>Remote support</li>
+                        </ul>
+                        <button className='pricing-item-get'>Get This Plan</button>
+                    </div>
+                    <div className="services-pricing-item">
+                        <div className="pricing-item-main">
+                            <div className="pricing-item-title">Standard Plan</div>
+                            <p className="pricing-item-desc">
+                                The argument in favor of using to
+                                filler text goes something.
+                            </p>
+                            <div className="pricing-item-rate d-f align-center">
+                                <div className="pricing-item-price">$56</div>
+                                <AboveText
+                                    content='Monthly'
+                                    bgcolor='var(--primary-02)'
+                                    txtColor='var(--secondary-02)'
+                                />
+                            </div>
+                        </div>
+                        <ul className="pricing-item-points">
+                            <li>24/7 system monitoring</li>
+                            <li>Security management</li>
+                            <li>Secure finance backup</li>
+                            <li>Remote support</li>
+                        </ul>
+                        <button className='pricing-item-get'>Get This Plan</button>
+                    </div>
+                    <div className="services-pricing-item">
+                        <div className="pricing-item-main">
+                            <div className="pricing-item-title">Premium Plan</div>
+                            <p className="pricing-item-desc">
+                                The argument in favor of using to
+                                filler text goes something.
+                            </p>
+                            <div className="pricing-item-rate d-f align-center">
+                                <div className="pricing-item-price">$75</div>
+                                <AboveText
+                                    content='Monthly'
+                                    bgcolor='#3E3E3E'
+                                    txtColor='var(--secondary-02)'
+                                />
+                            </div>
+                        </div>
+                        <ul className="pricing-item-points">
+                            <li>24/7 system monitoring</li>
+                            <li>Security management</li>
+                            <li>Secure finance backup</li>
+                            <li>Remote support</li>
+                        </ul>
+                        <button className='pricing-item-get'>Get This Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div className="home-contact d-f">
+                <div>
+                    <AboveText content='Process' />
+                    <h2 className="home-contact-title">Contact Us. I'’s Easy.</h2>
+                    <p className="home-contact-desc">
+                        Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                        Iterative approaches to corporate strategy foster collaborative.
+                    </p>
+                    <div className="home-contact-content d-f">
+                        <div className="home-contact-item d-f">
+                            <div><img src="images/contact-phone.svg" alt="contact-phone" /></div>
+                            <div>
+                                <div className="contact-item-title">Call Today</div>
+                                <div className="contact-item-desc">+1 800 100 900</div>
+                            </div>
+                        </div>
+                        <div className="home-contact-item d-f">
+                            <div><img src="images/contact-schedule.svg" alt="contact-schedule" /></div>
+                            <div>
+                                <div className="contact-item-title">Monday To Friday</div>
+                                <div className="contact-item-desc">9AM - 5PM</div>
+                            </div>
+                        </div>
+                        <div className="home-contact-item d-f">
+                            <div><img src="images/contact-location.svg" alt="contact-location" /></div>
+                            <div>
+                                <div className="contact-item-title">USA Office</div>
+                                <div className="contact-item-desc">195 Devonshire St Boston, MA <br /> 02110</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="" className='home-contact-fm d-f'>
+                    <div className="input-bl d-f">
+                        <div>
+                            <label htmlFor="fname">Full Name</label>
+                            <input type="text" name='fname' id='fname' placeholder='John David' />
+                        </div>
+                        <div>
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name='email' id='email' placeholder='consult@mail.com' />
+                        </div>
+                    </div>
+                    <div className="input-bl d-f">
+                        <div>
+                            <label htmlFor="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" placeholder='+008 654 231' />
+                        </div>
+                        <div>
+                            <label htmlFor="">Company(optional)</label>
+                            <input type="text" name='company' placeholder='yourcompany.com' />
+                        </div>
+                    </div>
+                    <div>
+                        <label htmlFor="msg">Message</label>
+                        <textarea
+                            name="msg"
+                            id="msg"
+                            placeholder='Briefly tell us about your project and your current goals. How can we help you?'>
+                        </textarea>
+                    </div>
+                    <button type='button'>Send Message</button>
+                </form>
             </div>
         </main>
     )

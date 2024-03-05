@@ -64,3 +64,116 @@
     line-height: 1.4;
     color: var(--primary-06);
 }
+
+.services-pricing {
+    margin-top: 144px;
+    padding: 149px 360px;
+    background-color: var(--secondary-01);
+}
+
+.services-pricing .above-text {
+    margin: 0 auto;
+}
+
+.services-pricing-title {
+    margin-top: 22px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: var(--primary-03);
+}
+
+.services-pricing-box {
+    margin-top: 40px;
+    gap: 49px;
+}
+
+.services-pricing-item {
+    width: 367px;
+    padding-top: 21px;
+    padding-bottom: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: var(--secondary-02);
+    border-radius: 20px;
+}
+
+.services-pricing-item .pricing-item-main {
+    width: 323px;
+    padding-top: 31.8px;
+    padding-bottom: 27.32px;
+    padding-left: 28px;
+    padding-right: 37.34px;
+    background: url("/public/images/pricing-item-main-bg.png") no-repeat;
+    border-radius: 20px;
+    color: var(--secondary-02);
+}
+
+.services-pricing-item .pricing-item-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.services-pricing-item .pricing-item-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.services-pricing-item .pricing-item-rate {
+    margin-top: 31.89px;
+    gap: 9px;
+}
+
+.services-pricing-item .pricing-item-price {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.services-pricing-item .pricing-item-points {
+    list-style-type: none;
+    margin-top: 33px;
+    margin-left: 29px;
+}
+
+.services-pricing-item .pricing-item-points li {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 9.79px;
+    font-size: 16px;
+    color: var(--primary-06);
+}
+
+.services-pricing-item .pricing-item-points li::before {
+    content: '';
+    display: block;
+    width: 25.41px;
+    height: 25.41px;
+    background: url("/public/images/points-icon.svg") no-repeat;
+}
+
+.services-pricing-item .pricing-item-points li:last-child {
+    margin-bottom: 0;
+}
+
+.services-pricing-item .pricing-item-get {
+    width: 323px;
+    margin-top: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #D6D6D6;
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-03);
+}
+
+.services-pricing-item .pricing-item-get:hover {
+    background-color: var(--primary-01);
+    border: 1px solid var(--primary-01);
+} 
