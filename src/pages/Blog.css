@@ -1,0 +1,32 @@
+.blog-main {
+    padding-top: 143px;
+    padding-bottom: 145px;
+    padding-left: 360px;
+    background: url("/public/images/blog-main-bg.png") no-repeat;
+}
+
+.blog-main-info {
+    width: 553px;
+    padding: 48px 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.blog-main-title {
+    margin-top: 21px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.blog-news {
+    margin-top: 175px;
+    background-color: transparent;
+}
+
+.blog-news .home-blog-content {
+    flex-wrap: wrap;
+    column-gap: 27px;
+    row-gap: 48px;
+}

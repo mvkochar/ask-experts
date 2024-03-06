@@ -10,7 +10,6 @@ const Case = () => {
                     <AboveText content='Case Studies' />
                     <h1 className='case-main-title'>Case Studies</h1>
                 </div>
-
             </div>
             <div className="case-blog">
                 <div className="case-blog-tabs d-f">
