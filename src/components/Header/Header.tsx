@@ -25,7 +25,7 @@ const Header = () => {
                     <li className="header-nav-item"><Link to="team">Team</Link></li>
                     <li className="header-nav-item"><Link to="case-study">Case Study</Link></li>
                     <li className="header-nav-item"><Link to="blog">Blog</Link></li>
-                    <li className="header-nav-item"><a href="">Contact</a></li>
+                    <li className="header-nav-item"><Link to="contact">Contact</Link></li>
                 </ul>
              </nav>
             <button className='header-call'>+ (888) 452 1505</button>   

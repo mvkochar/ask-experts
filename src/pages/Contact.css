@@ -1,0 +1,67 @@
+.contact-main {
+    padding-top: 168px;
+    padding-bottom: 108px;
+    padding-left: 360px;
+    background: url("/public/images/contact-main-bg.png") no-repeat;
+}
+
+.contact-main-info {
+    width: 587px;
+    padding: 48px 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.contact-main-title {
+    margin-top: 21px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.contact-talk {
+    margin-top: 81.46px;
+    margin-left: 265px;
+    margin-right: 363px;
+    gap: 82px;
+}
+
+.contact-talk-title {
+    margin-top: 11px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px; 
+    color: var(--primary-03);
+}
+
+.contact-talk-desc {
+    max-width: 481px;
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.contact-talk-content {
+    margin-top: 36px;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.contact-talk-item {
+    gap: 20px;
+}
+
+.contact-talk-item .talk-item-title {
+    font-size: 16px;
+    color: var(--primary-06);
+}
+
+.contact-talk-item .talk-item-desc {
+    margin-top: 5px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 16px; 
+    color: var(--primary-03);
+}
