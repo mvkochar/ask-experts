@@ -31,7 +31,7 @@
     margin-top: 11px;
     font-family: "Cabin", sans-serif;
     font-weight: 700;
-    font-size: 45px; 
+    font-size: 45px;
     color: var(--primary-03);
 }
 
@@ -62,6 +62,61 @@
     margin-top: 5px;
     font-family: "Cabin", sans-serif;
     font-weight: 600;
-    font-size: 16px; 
+    font-size: 16px;
+    color: var(--primary-03);
+}
+
+.contact-newsletter {
+    max-width: 1200px;
+    margin: 150px auto;
+    margin-bottom: 0;
+    padding-top: 87px;
+    padding-bottom: 88px;
+    padding-left: 87px;
+    padding-right: 85px;
+    background: url("/public/images/contact-newsletter-bg.png") no-repeat;
+    color: var(--secondary-02);
+}
+
+.contact-newsletter-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact-newsletter-desc {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.contact-newsletter-fm input {
+    width: 311px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 33px;
+    background-color: var(--secondary-02);
+    border: 1px solid #E3E3E3;
+    border-radius: 54px;
+    outline: none;
+    font-size: 16px;
+    color: #A9A9A9;
+}
+
+.contact-newsletter-fm input::placeholder {
+    color: #A9A9A9;
+}
+
+.contact-newsletter-fm button {
+    width: 168px;
+    margin-left: 21px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--primary-01);
+    border: 1px solid var(--primary-01);
+    border-radius: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
     color: var(--primary-03);
 }
