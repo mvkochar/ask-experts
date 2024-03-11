@@ -1,0 +1,100 @@
+.service-main {
+    padding-top: 144px;
+    padding-bottom: 144px;
+    padding-left: 360px;
+    background: url("/public/images/service-main-bg.png") no-repeat;
+}
+
+.service-main-info {
+    width: 459px;
+    padding: 48px 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.service-main-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.service-content {
+    padding-top: 148px;
+    padding-bottom: 148.94px;
+    padding-left: 360px;
+    background-color: var(--secondary-01);
+}
+
+.service-content-title {
+    margin-top: 17px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-03);
+}
+
+.service-content-desc {
+    width: 645px;
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.service-content-actions {
+    gap: 26px;
+    align-self: flex-end;
+}
+
+.service-content-actions button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.service-content-box {
+    margin-top: 70px;
+    gap: 43px;
+}
+
+.service-content-item {
+    height: fit-content;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+}
+
+.service-content-item:nth-child(1) {
+    width: 347px;
+    padding: 44px 35px;
+}
+
+.service-content-item:nth-child(2) {
+    width: 379px;
+    padding: 45px 33px;
+}
+
+.service-content-item:nth-child(3) {
+    width: 377px;
+    padding: 45px 39px;
+}
+
+.service-content-item:nth-child(4) {
+    width: 377px;
+    padding: 37px 39px;
+}
+
+.service-content-item .content-item-title {
+    margin-top: 24px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.service-content-item .content-item-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}

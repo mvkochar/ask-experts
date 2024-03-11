@@ -6,5 +6,6 @@ import Case from "./Case";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Licenses from "./Licenses";
+import ServiceSingle from "./ServiceSingle";
 
-export {Home, About, Services, Team, Case, Blog, Contact, Licenses};
+export {Home, About, Services, Team, Case, Blog, Contact, Licenses, ServiceSingle};
