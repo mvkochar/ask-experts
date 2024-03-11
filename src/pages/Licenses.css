@@ -1,0 +1,60 @@
+.licenses-main {
+    padding-top: 168px;
+    padding-bottom: 168px;
+    padding-left: 360px;
+    background: url("/public/images/licenses-main-bg.png") no-repeat;
+}
+
+.licenses-main-info {
+    max-width: 521px;
+    padding: 48px 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.licenses-main-title {
+    margin-top: 21px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.licenses-content {
+    max-width: 1200px;
+    margin: 143px auto;
+    margin-bottom: 0;
+    flex-direction: column;
+    gap: 81px;
+}
+
+.licenses-content-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-03);
+}
+
+.licenses-content-desc {
+    width: 800px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.licenses-content-desc span {
+    font-weight: 600;
+    color: var(--primary-03);
+}
+
+.licenses-content-info {
+    margin-top: 22px;
+    font-size: 30px;
+    color: var(--primary-03);
+}
+
+.licenses-content-info span {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}

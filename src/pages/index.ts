@@ -5,5 +5,6 @@ import Team from "./Team";
 import Case from "./Case";
 import Blog from "./Blog";
 import Contact from "./Contact";
+import Licenses from "./Licenses";
 
-export {Home, About, Services, Team, Case, Blog, Contact};
+export {Home, About, Services, Team, Case, Blog, Contact, Licenses};

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -40,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         &copy;2022 &nbsp; Consultalk.&nbsp; All rights reserved &nbsp; | &nbsp;
-        Terms of Service &nbsp; | &nbsp; Privacy Policy
+        Terms of Service &nbsp; | &nbsp; <Link to="/licenses">Privacy Policy</Link> 
       </div>
     </footer>
   )
