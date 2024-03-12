@@ -90,11 +90,151 @@
     font-family: "Cabin", sans-serif;
     font-weight: 600;
     font-size: 25px;
+    color: var(--primary-03);
 }
+
 
 .service-content-item .content-item-desc {
     margin-top: 10px;
     font-size: 16px;
     line-height: 1.4;
     color: var(--primary-06);
+}
+
+.service-content-item:hover svg path  {
+    fill: var(--primary-01);
+}
+
+.service-content-item:hover .content-item-title {
+    color: var(--secondary-02);
+}
+
+.service-content-item:hover .content-item-desc {
+    color: var(--secondary-02);
+}
+
+.service-content-item:hover {
+    background-color: var(--primary-03);
+}
+
+.service-expect {
+    margin-top: 84px;
+    margin-left: 265px;
+    margin-right: 362.98px;
+}
+
+.service-expect-title {
+    margin-top: 14px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-03);
+}
+
+.service-expect-desc {
+    width: 481px;
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.service-expect-points {
+    list-style-type: none;
+    width: 417px;
+    margin-top: 24px;
+}
+
+.service-expect-points li {
+    display: flex;
+    gap: 15.86px;
+    margin-bottom: 18px;
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--primary-06);
+}
+
+.service-expect-points li:last-child {
+    margin-bottom: 0;
+}
+
+.service-expect-points li::before {
+    content: '';
+    display: block;
+    width: 42.69px;
+    height: 42.69px;
+    background: url("/public/images/points-icon2.svg") no-repeat;
+}
+
+.service-clients {
+    margin-top: 75px;
+    margin-left: 60px;
+    margin-right: 55.26px;
+}
+
+.service-video {
+    margin-top: 94.92px;
+    margin-bottom: 180px;
+    padding-top: 152px;
+    padding-bottom: 152px;
+    background: var(--primary-03) url("/public/images/service-video-bg.png") no-repeat;
+    background-position: 488px 316px;
+}
+
+.service-video .above-text {
+    margin: 0 auto;
+}
+
+.service-video-title {
+    width: 522px;
+    margin: 22px auto;
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--secondary-02);
+}
+
+.service-video-content {
+    width: fit-content;
+    margin: 47px auto;
+    margin-bottom: 0;
+}
+
+.service-video-content iframe {
+    border: none;
+}
+
+.service-faq {
+    max-width: 1197.11px ;
+    margin: 150px auto;
+    margin-bottom: 145px;
+    padding: 151px 236px;
+    background-color: var(--secondary-01);
+    border-radius: 30px;
+}
+
+.service-faq .above-text {
+    margin: 0 auto;
+}
+
+.service-faq-title {
+    margin-top: 22px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: var(--primary-03); 
+}
+
+.service-faq-content {
+    flex-direction: column;
+    gap: 21px;
+    width: 725.11px;
+    margin: 40px auto;
+    margin-bottom: 0;
 }

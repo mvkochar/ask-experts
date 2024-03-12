@@ -1,0 +1,30 @@
+.faq-item {
+    width: 723.16px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.faq-item-question {
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #181818;
+}
+
+.faq-item-btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 22px;
+    color: #181818;
+}
+
+.faq-item-answer {
+    width: 640.14px;
+    margin-top: 16.54px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #595566;
+}
