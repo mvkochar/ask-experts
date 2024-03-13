@@ -3,8 +3,11 @@ import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
 
-
 const App = () => {
+  const [memberName, setMemmberName] = React.useState("")
+  
+  const handleMemberName = (name: string) => setMemmberName(name)
+
   return (
     <>
       <Header />

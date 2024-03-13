@@ -1,6 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Case, Home, Services, Team, Blog, Contact, Licenses, ServiceSingle } from '../../pages'
+import { About, Case, Home, Services, Team, Blog, Contact, Licenses, ServiceSingle, TeamSingle } from '../../pages'
+
+
 
 const Main = () => {
     return (
@@ -40,6 +42,10 @@ const Main = () => {
             <Route
                 path='service-single'
                 element={<ServiceSingle/>}
+            />
+            <Route
+                path='team-single'
+                element={<TeamSingle/>}
             />
         </Routes>
     )

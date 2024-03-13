@@ -1,0 +1,62 @@
+.team-info {
+    margin-top: 82.46px;
+    margin-left: 236px;
+    margin-right: 360px;
+}
+
+.team-info-img {
+    padding-top: 77px;
+    padding-left: 124px;
+    background: url("/public/images/pattern.png") no-repeat;
+}
+
+.team-info-img img {
+    width: 478px;
+    height: 504px;
+}
+
+.team-info-caption {
+    gap: 60px;
+    margin-top: 77px;
+    margin-bottom: 35px;
+}
+
+.team-info-name,
+.team-info .experience-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--primary-03);
+}
+
+.team-info-pos {
+    margin-top: 4px;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    color: var(--primary-06);
+}
+
+.team-info-social {
+    height: 35px;
+    gap: 25px;
+    padding-left: 60px;
+    border-left: 1px solid #C1C1C1;
+}
+
+.team-info-desc {
+    width: 633px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.team-info .experience-title {
+    margin-top: 40px;
+    margin-bottom: 13px;
+    padding-top: 40px;
+    border-top: 1px solid #C1C1C1;
+}
+
+.team-info-desc:last-child {
+    margin-top: 40px;
+}

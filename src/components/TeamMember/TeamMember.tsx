@@ -1,5 +1,6 @@
 import React from 'react'
 import './TeamMember.css'
+import { Link } from 'react-router-dom'
 
 type TeamMemberProps = {
     image: string
@@ -16,7 +17,7 @@ const TeamMember = ({ image, position, bgColor = "#181818", txtColor = "#FFFFFF"
             <div className="team-member-main" style={{ background: `url(${image}) no-repeat` }}>
                 <div className="team-member-pos" style={{ backgroundColor: bgColor, color: txtColor }}>{position}</div>
             </div>
-            <h5 className="team-member-fname">{fName}</h5>
+            <Link to='/team-single' className="team-member-fname">{fName}</Link>
             <p className="team-member-desc">{desc}</p>
             <div className="team-member-social d-f">
                 <div><img src="images/instagram.svg" alt="Instagram" /></div>
