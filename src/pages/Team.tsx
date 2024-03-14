@@ -25,6 +25,7 @@ const Team = () => {
                 </div>
                 <div className="team-meet-box d-f">
                     <TeamMember
+                        id={0}
                         image='images/team1.png'
                         position='CEO at Company'
                         bgColor='var(--primary-01)'
@@ -33,30 +34,35 @@ const Team = () => {
                         desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
                     />
                     <TeamMember
+                        id={1}
                         image='images/team2.png'
                         position='Manager'
                         fName='John Carter'
                         desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
                     />
                     <TeamMember
+                        id={2}
                         image='images/team3.png'
                         position='CEO at Company'
                         fName='Daisy Stella'
                         desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
                     />
                     <TeamMember
+                        id={3}
                         image='images/team4.png'
                         position='CEO at Company'
                         fName='Maya Elizabeth'
                         desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
                     />
                     <TeamMember
+                        id={4}
                         image='images/team5.png'
                         position='CEO at Company'
                         fName='Ryan Jackson'
                         desc='Leverage agile frameworks to provide a robust synopsis for high level overviews.'
                     />
                     <TeamMember
+                        id={5}
                         image='images/team6.png'
                         position='CEO at Company'
                         fName='Lilly Victoria'

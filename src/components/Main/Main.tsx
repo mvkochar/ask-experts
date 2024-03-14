@@ -44,7 +44,7 @@ const Main = () => {
                 element={<ServiceSingle/>}
             />
             <Route
-                path='team-single'
+                path='team-single/:id'
                 element={<TeamSingle/>}
             />
         </Routes>
