@@ -8,5 +8,7 @@ import Contact from "./Contact";
 import Licenses from "./Licenses";
 import ServiceSingle from "./ServiceSingle";
 import TeamSingle from "./TeamSingle";
+import BlogSingle from "./BlogSingle";
 
-export {Home, About, Services, Team, Case, Blog, Contact, Licenses, ServiceSingle, TeamSingle};
+
+export {Home, About, Services, Team, Case, Blog, Contact, Licenses, ServiceSingle, TeamSingle, BlogSingle};

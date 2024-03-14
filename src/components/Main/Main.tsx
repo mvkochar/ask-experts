@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Case, Home, Services, Team, Blog, Contact, Licenses, ServiceSingle, TeamSingle } from '../../pages'
+import { About, Case, Home, Services, Team, Blog, Contact, Licenses, ServiceSingle, TeamSingle, BlogSingle } from '../../pages'
 
 
 
@@ -46,6 +46,10 @@ const Main = () => {
             <Route
                 path='team-single/:id'
                 element={<TeamSingle/>}
+            />
+            <Route
+                path='blog-single/:id'
+                element={<BlogSingle/>}
             />
         </Routes>
     )
