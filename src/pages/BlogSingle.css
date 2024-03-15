@@ -1,0 +1,123 @@
+.blog-single-main {
+    padding-top: 239px;
+    padding-bottom: 248px;
+    padding-left: 361px;
+}
+
+.blog-single-main .single-main-info {
+    width: 838px;
+    padding: 48px 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 29px;
+}
+
+.blog-single-main .single-main-title {
+    margin-top: 21px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-03);
+}
+
+.blog-single-author {
+    width: 794px;
+    margin: 150px auto;
+    padding-top: 51px;
+    padding-bottom: 53px;
+    padding-left: 20.06px;
+    padding-right: 55px;
+    background: url("/public/images/blog-single-author-bg.png") no-repeat;
+    color: var(--secondary-02);
+    gap: 35px;
+}
+
+.blog-single-author .single-author-img {
+    width: 32%;
+    flex-shrink: 0;
+    padding-top: 15px;
+    padding-left: 23px;
+    background: url(/public/images/author-img-bg.svg) no-repeat;
+}
+
+.blog-single-author .single-author-img img {
+    width: 192px;
+}
+
+.blog-single-author .single-author-name {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.blog-single-author .single-author-pos {
+    margin-top: 5px;
+    font-weight: 500;    
+    font-size: 18px;
+}
+
+.blog-single-author .single-author-desc {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.blog-single-author .single-author-social {
+    gap: 23px;
+    margin-top: 19px;
+}
+
+.blog-single-content {
+    margin-top: 43.46px;
+    margin-left: 360px;
+    margin-right: 360px;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.blog-single-content .content-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary-03);
+}
+
+.blog-single-content .content-desc {
+    max-width: 953px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--primary-06);
+}
+
+.blog-single-content .content-list {
+    margin-top: 64px;
+    margin-left: 20px;
+} 
+
+.blog-single-content .content-list li {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: var(--primary-06); 
+}
+
+.blog-single-content .content-list li:last-child {
+    margin-bottom: 0;
+}
+
+.single-content-quote {
+    width: 1200px;
+    padding-top: 94.23px;
+    padding-bottom: 86px;
+    background: url("/public/images/quote-bg.png") no-repeat;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.single-content-quote .quote-text {
+    width: 896px;
+    margin: 33.85px auto;
+    margin-bottom: 0;
+    font-family: "Cabin", sans-serif;
+    font-size: 32px;
+    line-height: 1.4;
+    color: var(--secondary-02);
+}

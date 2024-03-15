@@ -1,7 +1,9 @@
 import React from 'react'
 import './BlogItem.css'
+import { Link } from 'react-router-dom'
 
 type BlogItemProps = {
+    id?: number
     image: string
     title: string
     desc: string
@@ -10,7 +12,7 @@ type BlogItemProps = {
     date: string
 }
 
-const BlogItem = ({image, title, desc, authorPhoto, authorName, date}:BlogItemProps) => {
+const BlogItem = ({id=0, image, title, desc, authorPhoto, authorName, date}:BlogItemProps) => {
   return (
     <div className='blog-item'>
         <div><img src={image} alt="blog-image" /></div>
@@ -21,7 +23,7 @@ const BlogItem = ({image, title, desc, authorPhoto, authorName, date}:BlogItemPr
             <div className="blog-item-author">{authorName}</div>
             <div className="blog-item-divider"></div>
             <div className="blog-item-date">{date}</div>
-            <a href="" className="blog-item-more">Read More</a>
+            <Link to= {`/blog-single/${id}`}className="blog-item-more">Read More</Link>
         </div>
     </div>
   )

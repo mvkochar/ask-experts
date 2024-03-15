@@ -9,14 +9,14 @@ const Header = () => {
             <div className="header-schedule">Monday - Friday 8AM - 9PM</div>
             <div className="header-location">725 Park Ave, New York</div>
             <div className="header-social d-f align-center">
-                <div><img src="images/header-social1.svg" alt="Instagram" /></div>
-                <div><img src="images/header-social2.svg" alt="Facebook" /></div>
-                <div><img src="images/header-social3.svg" alt="Twitter" /></div>
-                <div><img src="images/header-social4.svg" alt="Linkedin" /></div>
+                <div><img src="/images/header-social1.svg" alt="Instagram" /></div>
+                <div><img src="/images/header-social2.svg" alt="Facebook" /></div>
+                <div><img src="/images/header-social3.svg" alt="Twitter" /></div>
+                <div><img src="/images/header-social4.svg" alt="Linkedin" /></div>
             </div>
         </div>
         <div className="header-bar d-f jc-sb align-center">
-             <div><img src="images/logo.svg" alt="Logo" /></div>
+             <div><img src="/images/logo.svg" alt="Logo" /></div>
              <nav>
                 <ul className="header-nav d-f">
                     <li className="header-nav-item"><Link to="/">Home</Link></li>
