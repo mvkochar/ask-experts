@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <div className="footer-bar-title">Product</div>
           <ul className="footer-bar-list">
-            <li><a href="">Service</a></li>
+            <li><Link to="services">Service</Link></li>
             <li><a href="">FAQ</a></li>
             <li><a href="">Single Service</a></li>
             <li><a href="">Get Quote</a></li>
@@ -23,11 +23,11 @@ const Footer = () => {
         <div>
           <div className="footer-bar-title">Company</div>
           <ul className="footer-bar-list">
-            <li><a href="">About</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contacts</a></li>
+            <li><Link to="about">About</Link></li>
+            <li><Link to="blog">News</Link></li>
+            <li><Link to="contact">Contacts</Link></li>
             <li><a href="">Testimonials</a></li>
-            <li><a href="">Our team</a></li>
+            <li><Link to="teeam">Our team</Link></li>
             <li><a href="">Our approach</a></li>
           </ul>
         </div>
